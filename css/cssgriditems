@@ -1,0 +1,51 @@
+<style>
+.container {
+  display: grid;
+  grid-template-columns: auto ;
+  background-color: DarkSlateGrey;
+  padding: 0.5%;
+}
+
+
+.container > div {
+  background-color: DarkSlateGrey;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+
+<style>
+
+      .resumetable{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: DarkSlateGrey;
+        padding: 1%;
+      }
+
+      .resumetable > div {
+        background-color: DarkSlateGrey;
+        border: 1px solid black;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      }
+      .resumecolumn {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: DarkSlateGrey;
+        padding: 1%;
+       }
+
+      .resumecolumn > div {
+        background-color: DarkSlateGrey;
+        border: 1px solid black;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
