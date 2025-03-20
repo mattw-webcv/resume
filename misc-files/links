@@ -1,0 +1,43 @@
+
+
+HTML features
+https://www.w3schools.com/html/html_classes.asp
+
+
+https://www.w3schools.com/html/html5_draganddrop.asp
+
+https://www.w3schools.com/html/html_examples.asp
+
+CSS
+
+https://www.w3schools.com/css/css_colors.asp
+<link rel="stylesheet" href="mystyle.css">
+https://www.w3schools.com/css/css_font_size.asp
+https://www.w3schools.com/css/css_link.asp
+https://www.w3schools.com/css/css_pseudo_classes.asp
+https://www.w3schools.com/css/css_navbar_vertical.asp
+https://www.w3schools.com/css/css_website_layout.asp
+
+
+Forms/inputs
+
+https://www.w3schools.com/html/html_forms.asp
+
+Layout
+https://www.w3schools.com/html/html_layout.asp
+
+
+Example links
+
+<img src="picture.jpg"> 	The "picture.jpg" file is located in the same folder as the current page
+
+<img src="images/picture.jpg"> 	The "picture.jpg" file is located in the images folder in the current folder
+
+<img src="/images/picture.jpg"> 	The "picture.jpg" file is located in the images folder at the root of the current web
+
+<img src="../picture.jpg"> 	The "picture.jpg" file is located in the folder one level up from the current folder
+
+Absolute link location
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+
+https://www.w3schools.com/html/html_filepaths.asp
