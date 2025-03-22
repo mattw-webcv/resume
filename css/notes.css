@@ -1,0 +1,66 @@
+/*
+Websafe colors
+Sorted
+https://www.w3schools.com/colors/colors_hex.asp
+https://www.w3schools.com/colors/colors_groups.asp
+
+
+*/
+
+/*
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+Div elements
+
+buttons
+https://www.w3schools.com/CSSref/sel_hover.php
+hover and colours etc
+
+<h1 style="font-size:10vw">Hello World</h1>
+<style="max-width:100%;height:auto;">
+
+background-color: lightblue;
+opacity: 0.3;
+color: white;
+margin-left: 20px;
+
+text-align: ;
+text-align-last: ;
+(left center right justify)
+
+(last line of a text.)
+("justify", each line is stretched so that every line has equal width, and the left and right margins are straight)
+
+float: ;
+
+width: 50%;
+border: 3px solid green;
+padding: 10px;
+
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+
+text-align: center;
+text-transform: lowercase;
+text-overflow: hidden;
+
+*/
