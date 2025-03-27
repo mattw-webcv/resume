@@ -3,10 +3,11 @@ body {
   font-family: Verdana, sans-serif;
   color: #8fbcbb;
   font-size: 1.2em;
+
 }
 
 header {
-  height: 8em;
+  height: 9em;
   justify-content: center;
   border-spacing: 5em;
   margin: auto;
@@ -30,9 +31,9 @@ header {
 footer {
   height: 3em;
   justify-content: center;
-  border-spacing: 1em;
+  border-spacing: 2em;
   margin: auto;
-  width: 20em;
+  width: 50%;
   padding: 0.1em;
   text-align: center;
   border-radius: 15px;
@@ -41,3 +42,23 @@ footer {
     display: inline-flex;
   }
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}}
+</style>

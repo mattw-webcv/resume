@@ -1,3 +1,8 @@
+/*
+
+
+*/
+
 /* unvisited link */
 a:link {
   color: #8fbcbb;
@@ -18,7 +23,30 @@ a:active {
   color: #b48ead;
 }
 
-/*
 
+.navbar {
+box-sizing: border-box;
 
-*/
+  {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
