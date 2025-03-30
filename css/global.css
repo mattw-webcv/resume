@@ -3,6 +3,10 @@ body {
   font-family: Verdana, sans-serif;
   color: #8fbcbb;
   font-size: 1.2em;
+  margin: 2em;
+  column-gap: 0.5em ;
+  p{
+    margin: 0.5em;
 
 }
 
@@ -53,6 +57,7 @@ h6 {
 }
 
 
+}
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
