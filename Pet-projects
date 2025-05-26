@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-AU">
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <title>Resume</title>
+            <link rel="stylesheet" href="css/css.css" />
+        </head>
+        <body>
+            <header>
+                <div>
+                    <h4>
+                        Hello,
+                        <br />
+                        I'm Matthew
+                        <br />
+                        This is my resume.
+                    </h4>
+                </div>
+                <div class="resumenavbar">
+                    <ul>
+                        <li>
+                            <a href="computing.html">Computing skills</a>
+                        </li>
+                        <li>
+                            <a href="theoretical.html">Theoretical skills</a>
+                        </li>
+                        <li>
+                            <a href="practical.html">Practical skills</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <!-- column break -->
+                <div class="skillscolumn">
+                    <div>
+                        <details>
+                            <summary>Agriculture/Farming</summary>
+                            <p>
+                                Researching symbiotic relationships between
+                                plants, and plants and animals. Researching
+                                environmental responsibilities; planning for
+                                frequency and arrangement of plants/gardens;
+                                also of irrigation and fertilisation.
+                            </p>
+                        </details>
+                    </div>
+
+                    <div>
+                        <details>
+                            <summary>Microbiology</summary>
+                            <p>
+                                Both fermentation for consumption, and
+                                earth/soil interactions in gardening and
+                                growing.
+                            </p>
+                        </details>
+                    </div>
+
+                    <div>
+                        <details>
+                            <summary>Human biology and anatomy</summary>
+                            <p>
+                                Nutrition, biological exchanges, and
+                                physiological functions; along with exercise.
+                                How each impacts and drives health, capacity,
+                                and growth.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div>
+                    <a href="index.html"><h3>Home</h3></a>
+                    <a href="https://github.com/mattw-webcv" target="_blank"
+                        ><h3>Github</h3>
+                    </a>
+
+                    <p>
+                        Please note, I will periodically revisit and update this
+                        site.
+                    </p>
+                </div>
+            </footer>
+        </body>
+    </html>
+</html>
