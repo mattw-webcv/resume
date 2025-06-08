@@ -1,5 +1,13 @@
-@import "./borders.css";
-@import "./classes.css";
-@import "./global.css";
+/*
+Lists
+*/
+/*
+@import "./";
+*/
+@import "./body.css";
+@import "./css.css";
+@import "./flexandgrid.css";
 @import "./links.css";
 @import "./lists.css";
+@import "./misc.css";
+@import "./outlinesborders.css";

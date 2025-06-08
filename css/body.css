@@ -1,3 +1,7 @@
+/*
+Lists
+*/
+
 body {
   background-color: #2e3440;
   font-family: Verdana, sans-serif;
@@ -67,3 +71,7 @@ h6 {
   }
 }}
 </style>
+
+.pageoutline {
+    margin: 1em;
+}
