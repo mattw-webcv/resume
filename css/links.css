@@ -1,83 +1,61 @@
-/* unvisited link */
 a:link {
-  color: #8fbcbb;
+    color: var(--primary);
 }
 
-/* visited link */
 a:visited {
-  color: #5e81ac;
+    color: var(--secondary);
 }
 
-/* mouse over link */
 a:hover {
-  color: #b48ead;
+    color: var(--accent);
 }
 
-/* selected link */
 a:active {
-  color: #b48ead;
+    color: var(--accent);
 }
-
 
 .navbar {
-box-sizing: border-box;
-
-  {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
 }
 
 .navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 25%; /* Four links of equal widths */
-  text-align: center;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
 }
 
 .navbar a:hover {
-  background-color: #000;
+    background-color: #000;
 }
 
 .navbar a.active {
-  background-color: #04AA6D;
+    background-color: #04aa6d;
 }
 
 .resumenavbar {
-    font-size: 1em;
-    ul {
-        li {
-            background-color: #4c566a;
-            border-radius: 9px;
-            padding: 0.3em;
-            display:;
-        }
-    }
+    margin-bottom: 1rem; /* space below navbar */
 }
 
-.projectsbutton{
-      data-collapse-toggle="navbar-default"
-      type="button"
-      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-      aria-controls="navbar-default"
-      aria-expanded="false"
+.resumenavbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* optional: center links */
+    gap: 0.5rem 1rem; /* vertical horizontal gap */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
-      span class="sr-only">Open main menu
-      <svg>
-        class="w-5 h-5"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 17 14"
-      >
-        path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M1 1h15M1 7h15M1 13h15"></path>
-      </svg>
+.resumenavbar ul li {
+    background-color: #4c566a;
+    border-radius: 9px;
+    padding: 0.3em 0.6em;
+    display: inline-block;
 }

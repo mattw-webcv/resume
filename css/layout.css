@@ -1,0 +1,70 @@
+main {
+    display: block;
+    padding-top: 8em; /* adjust this to the height of your header/navbar */
+}
+
+header {
+    height: 9em;
+    justify-content: center;
+    margin: auto;
+    width: 28em;
+    padding: 1em;
+    outline: solid #73ad21;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.8em;
+}
+
+footer {
+    background: var(--bg);
+    color: var(--text);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer div a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer div a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+footer div p {
+    flex-basis: 100%;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.categories {
+    margin-top: 2em; /* adjust as needed */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+@media (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+}

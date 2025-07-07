@@ -1,59 +1,52 @@
-/*
-Lists
-*/
+@media print {
+    body {
+        background: white;
+        color: black;
+        font-size: 11pt;
+        margin: 1cm;
+    }
 
-/*
+    header,
+    footer,
+    .navbar {
+        display: none;
+    }
 
-.button {
-  background-color: #04aa6d;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    .categories {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .category {
+        background: none;
+        border: none;
+        page-break-inside: avoid;
+    }
+
+    .category details {
+        all: unset;
+    }
+
+    .category details[open] p {
+        display: block;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: black;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+    }
 }
-
-
-
-Borders
-
-Content - The content of the box, where text and images appear
-Padding - Clears an area around the content. The padding is transparent
-Border - A border that goes around the padding and content
-Margin - Clears an area outside the border. The margin is transparent
-
-
-Margin spacing is separation between objects
-margin: 25%;
-margin: auto;
-
-
-Padding spacing is separation between borders and their contents
-padding: 25%
-
-https://www.w3schools.com/css/css_border.asp
-
-border-radius: ;
-
-border: 5px solid red;
-(border-width border-style (required) border-color)
-
-Style:
-p.solid {border-style: solid;
-p.double {border-style: double;
-p.groove {border-style: groove;
-p.ridge {border-style: ridge;
-p.none {border-style: none;
-p.hidden {border-style: hidden;
-
-
-
-
-
-
-
-*/

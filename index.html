@@ -1,150 +1,554 @@
 <!doctype html>
 <html lang="en-AU">
-    <html>
-        <head>
-            <meta charset="utf-8" />
-            <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1.0"
-            />
-            <title>Resume</title>
-            <link rel="stylesheet" href="css/css.css" />
-        </head>
-        <body>
-            <header>
-                <div>
-                    <h4>
-                        Hello,
-                        <br />
-                        I'm Matthew
-                        <br />
-                        This is my resume.
-                    </h4>
-                </div>
-                <div class="resumenavbar">
-                    <ul>
-                        <li>
-                            <a href="computing.html">Computing skills</a>
-                        </li>
-                        <li>
-                            <a href="theoretical.html">Theoretical skills</a>
-                        </li>
-                        <li>
-                            <a href="practical.html">Practical skills</a>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-            <main>
-                <div class="skillscolumn">
-                    <div>
-                        <h3>Transferrable skills</h3>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Resume — Matthew</title>
+
+        <link rel="stylesheet" href="css/css.css" />
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    Hello,<br />
+                    I'm Matthew<br />
+                    This is my resume.
+                </h1>
+            </div>
+
+            <nav class="resumenavbar" aria-label="Resume sections">
+                <ul>
+                    <li><a href="#computing">Computing</a></li>
+                    <li><a href="#theoretical">Theoretical</a></li>
+                    <li><a href="#practical">Practical</a></li>
+                    <li><a href="#transferable">Transferable</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="categories">
+                <!-- Category: Computing Skills -->
+                <div class="category computing">
+                    <h2>Computing Skills</h2>
+                    <details>
+                        <summary>OS (Gnu/Linux, Windows, BSD, MacOS)</summary>
                         <p>
-                            This came from the simple recognition around playing
-                            chess in primary school. Skill and expertise from
-                            chess is not easily transferred. I therefore wanted
-                            to pick hobbies, right down to my entertainment;
-                            that would teach me something I can transfer
-                            elsewhere as much as possible.
+                            Filesystems, partitioning, drivers & dependencies,
+                            package managers, CLI command navigation; Ubuntu,
+                            Fedora, Debian, Win10 nuances.
                         </p>
-                    </div>
-
-                    <div>
-                        <h3>Adaptability</h3>
+                    </details>
+                    <details>
+                        <summary>PC Hardware</summary>
                         <p>
-                            I'd realised knowledge is an accumulation of grasped
-                            opportunities; which first means age does not
-                            necessitate wisdom, and knowledge can get obseleted
-                            quickly. Biology isn't fixed, it changes and adapts
-                            based on use, or lack of. Cognition is also biology.
+                            Workstation assembly, diagnosis, QA/QC. Basic
+                            familiarity with server hardware & rack
+                            arrangements.
                         </p>
-                    </div>
-
-                    <div>
-                        <h3>Time is short</h3>
+                    </details>
+                    <details>
+                        <summary>Networking</summary>
                         <p>
-                            I have about 10 hours a day for life; after travel,
-                            preparation for things, and sleeping. Within that 10
-                            hours I need to balance learning, anticipating
-                            retirement, and enjoyment.
+                            IP allocation, subnetting, routing & NAT, port
+                            forwarding, firewalls, network services, security
+                            hardening.
                         </p>
-                    </div>
-
-                    <div>
-                        <h3>Awareness</h3>
+                    </details>
+                    <details>
+                        <summary>Admin, Permissions & AAA</summary>
                         <p>
-                            So much of our lives are spent ignorant of our
-                            unconscious and subconscious choices. A person can
-                            only consciously change what they're consciously
-                            aware of. Understanding is the foundation of
-                            solution.
+                            User/admin tiers of permissions. Authorization,
+                            Authentication & Accounting concepts applied.
                         </p>
-                    </div>
-
-                    <div>
-                        <h3>Self imposed learning models</h3>
+                    </details>
+                    <details>
+                        <summary>HTML, CSS, PHP</summary>
                         <p>
-                            All my learning has been self-directed. Right down
-                            to searching, navigating, evaluating, and choosing
-                            material to learn from.
+                            Built and styled this site manually using semantic
+                            markup, CSS and PHP without CMS reliance.
                         </p>
-                    </div>
+                    </details>
+                    <details>
+                        <summary>Approaching Laravel</summary>
+                        <p>
+                            Planned next step: learn Laravel after full
+                            understanding of PHP ecosystem.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Programming Languages & Databases</summary>
+                        <p>
+                            SQL basics, editing config files, building personal
+                            databases. Learning Rust & WebAssembly roadmap.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Payment Processing</summary>
+                        <p>
+                            Studying payment gateways for future use with
+                            Laravel and forum/membership systems.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Version Control & CLI</summary>
+                        <p>
+                            Git for version control, effective terminal use, and
+                            workflow streamlining.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Web Server & Deployment</summary>
+                        <p>
+                            Deployed a live site on Nginx with static files,
+                            managing server stack without CMS.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>HTML</summary>
+                        <p>
+                            Semantic, standards-based markup for web documents.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>CSS</summary>
+                        <p>
+                            Styling language for layout, colors, and
+                            responsiveness.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>PHP</summary>
+                        <p>
+                            Server-side scripting language for dynamic web
+                            applications.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Laravel</summary>
+                        <p>PHP framework for backend structure and routing.</p>
+                    </details>
+
+                    <details>
+                        <summary>Rust</summary>
+                        <p>
+                            Modern systems-level language focused on safety and
+                            performance.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>MariaDB</summary>
+                        <p>
+                            Relational database for structured data management.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Nginx</summary>
+                        <p>High-performance web server and reverse proxy.</p>
+                    </details>
+
+                    <details>
+                        <summary>Git / Command Line</summary>
+                        <p>
+                            Version control and efficient development through
+                            the terminal.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Troubleshooting & Diagnostics</summary>
+                        <p>
+                            Systematic identification and resolution of
+                            technical problems.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Learning New Technologies Quickly</summary>
+                        <p>
+                            Independently acquiring and applying new tools and
+                            frameworks.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Automation & Efficiency</summary>
+                        <p>
+                            Designing repeatable processes to save time and
+                            reduce errors.
+                        </p>
+                    </details>
                 </div>
-                <div>
-                    <h3>As of ~October 2023</h3>
-                    <p>
-                        Begin active learning of website design
-                        <br />
-                        Learning the full list of what I needed to learn.
-                        <br />
-                        Beginning with CCNA. Then recognising a website resume
-                        made with only an IDE text editor, from self paced
-                        learning is the simplest and fastest way of showing my
-                        capability.
-                        <br />
-                        <br />
-                        From website design, content, frameworks, and everything
-                        inbetween.
-                        <br />
-                        Html, php, css, laravel, rust, mariadb, nginx,
-                        <br />
-                        Hosting a website on the internet/cloud, setting up a
-                        business for income and tax. Purchasing domain name,
-                        business trading name, leasing server space.
-                        <br />
-                        <br />
-                        Sequenced and structured my learning, not to minimise my
-                        time to be 'up and running'. But instead, to minimise
-                        'total time taken'; for example, learning to make a
-                        website doesn't need to involve the arduous and tedious
-                        process of databases, and complicated full featured
-                        frameworks such as laravel. However constantly
-                        'revisiting basics' to learn new components such as
-                        databases creates exponential overhead, overlap, in
-                        addition to simply repetition.
 
-                        <br />
-                        Wanting to be self sufficient conversation with anyone
-                        about anything protect against being manipulated and
-                        scammed understand how everything works.
-                        <br />
-                    </p>
-                </div>
-            </main>
-            <footer>
-                <div>
-                    <a href="index.html"><h3>Home</h3></a>
-                    <a href="Pet-projects.html"><h3>Pet Projects</h3></a>
-                    <a href="https://github.com/mattw-webcv" target="_blank"
-                        ><h3>Github</h3>
-                    </a>
+                <!-- Category: Theoretical Skills -->
+                <div class="category theoretical">
+                    <h2>Theoretical Skills</h2>
+                    <details>
+                        <summary>Theology (cross-faith)</summary>
+                        <p>
+                            Studying structure of faith and its translation to
+                            traditions and lifestyles.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Logic</summary>
+                        <p>
+                            Analyzing cause-effect structures and modular
+                            reasoning patterns.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Psychology</summary>
+                        <p>
+                            Understanding the psyche, its dimensions, mechanisms
+                            and layers.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Sociology</summary>
+                        <p>
+                            Exploring societal trends, group identity, and
+                            ideology across scales.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Politics, Diplomacy & War</summary>
+                        <p>
+                            Studying political frameworks and strategic
+                            interactions between systems.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>History</summary>
+                        <p>
+                            Chronological records of events, geography, and
+                            societal change.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Language Structure</summary>
+                        <p>
+                            Patterns of communication, grammar priorities, and
+                            expression systems.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Teaching & Learning Methods</summary>
+                        <p>
+                            Strategies, psychological and perceptual trends in
+                            how humans learn and teach.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Meta-Learning & Strategy</summary>
+                        <p>
+                            Studying learning itself, optimizing retention and
+                            sequencing of complexity.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Security Awareness</summary>
+                        <p>
+                            Recognizing manipulation, scams, and building
+                            personal/systemic resilience.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Theology (cross-faith)</summary>
+                        <p>
+                            Study of faith structures and their influence on
+                            life and tradition.
+                        </p>
+                    </details>
 
-                    <p>
-                        Please note, I will periodically revisit and update this
-                        site.
-                    </p>
+                    <details>
+                        <summary>Logic</summary>
+                        <p>
+                            Cause-effect reasoning using structured, modular
+                            arguments.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Psychology</summary>
+                        <p>
+                            Understanding dimensions and properties of the human
+                            psyche.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Sociology</summary>
+                        <p>
+                            Trends in society and how identity & ideology
+                            interact over scales.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Politics, Diplomacy, & War</summary>
+                        <p>
+                            Political frameworks and their interactions across
+                            ideologies.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>History</summary>
+                        <p>
+                            Sequential record of events, societies, and
+                            geographies.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Language Structure</summary>
+                        <p>
+                            Patterns of communication and priorities of grammar.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Teaching & Learning Methods</summary>
+                        <p>
+                            Trends and techniques for effective instruction and
+                            retention.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Systems Thinking</summary>
+                        <p>
+                            Understanding interdependent parts and their effect
+                            on the whole.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Critical Thinking</summary>
+                        <p>
+                            Evaluating assumptions, arguments, and ideas
+                            logically.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Pattern Recognition</summary>
+                        <p>
+                            Identifying meaningful trends and connections in
+                            data or situations.
+                        </p>
+                    </details>
                 </div>
-            </footer>
-        </body>
-    </html>
+
+                <!-- Category: Practical Skills -->
+                <div class="category practical">
+                    <h2>Practical Skills</h2>
+                    <details>
+                        <summary>Agriculture & Farming</summary>
+                        <p>
+                            Planning symbiotic gardens, irrigation,
+                            fertilization, and sustainable practices.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Microbiology</summary>
+                        <p>
+                            Fermentation for food, and soil/earth microbiome
+                            interactions.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Human Biology & Anatomy</summary>
+                        <p>
+                            Nutrition, physiology, exercise science, and
+                            optimizing health.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Business Setup</summary>
+                        <p>
+                            Registered domain & business, managed
+                            infrastructure, and compliance.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Documentation</summary>
+                        <p>
+                            Creating clear, structured, and accessible records
+                            for projects and processes.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Self-Directed Learning</summary>
+                        <p>
+                            Designing and following an independent curriculum
+                            with measurable outcomes.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Agriculture / Farming</summary>
+                        <p>
+                            Planning sustainable gardens with symbiotic plant &
+                            animal relationships.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Microbiology</summary>
+                        <p>
+                            Fermentation and soil health through microbial
+                            interactions.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Human Biology & Anatomy</summary>
+                        <p>
+                            Nutrition, exercise, and physiology for health and
+                            growth.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Business Setup</summary>
+                        <p>
+                            Registered domain & business name; managed server
+                            infrastructure.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Web Deployment</summary>
+                        <p>
+                            Hosted a live site using Nginx, static files, and
+                            custom stack.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Documentation</summary>
+                        <p>
+                            Structured knowledge for clarity, reflection, and
+                            future recall.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Project Planning & Execution</summary>
+                        <p>
+                            Taking ideas from concept through planning,
+                            building, testing, and deployment.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Resourcefulness</summary>
+                        <p>
+                            Finding creative solutions despite limited
+                            resources.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Self-Motivation & Discipline</summary>
+                        <p>
+                            Setting and meeting personal goals without external
+                            supervision.
+                        </p>
+                    </details>
+                </div>
+
+                <!-- Category: Transferable Skills -->
+                <div class="category transferable">
+                    <h2>Transferable Skills</h2>
+                    <details>
+                        <summary>Adaptability</summary>
+                        <p>
+                            Recognizing and adapting to change in tools,
+                            contexts, and knowledge domains.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Time Management & Prioritization</summary>
+                        <p>
+                            Balancing learning, work, and life within
+                            constraints of limited time.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Awareness & Reflection</summary>
+                        <p>
+                            Identifying unconscious habits, enabling conscious
+                            improvement and growth.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Critical Thinking</summary>
+                        <p>
+                            Evaluating options, risks, and outcomes
+                            systematically and effectively.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Problem Solving</summary>
+                        <p>
+                            Breaking down complex issues into manageable steps,
+                            finding solutions.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Empathy & Perspective-Taking</summary>
+                        <p>Understanding and adapting to others’ viewpoints.</p>
+                    </details>
+
+                    <details>
+                        <summary>Communication & Explanation</summary>
+                        <p>
+                            Making complex concepts understandable to different
+                            audiences.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Resilience & Adaptability</summary>
+                        <p>
+                            Remaining effective despite stress, uncertainty, or
+                            change.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Curiosity & Lifelong Learning</summary>
+                        <p>
+                            Pursuing knowledge and self-improvement
+                            continuously.
+                        </p>
+                    </details>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <a href="index.html"><h3>Home</h3></a>
+                <a href="Pet-projects.html"><h3>Pet Projects</h3></a>
+                <a href="https://github.com/mattw-webcv" target="_blank"
+                    ><h3>Github</h3></a
+                >
+                <p>
+                    Please note, I will periodically revisit and update this
+                    site.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>

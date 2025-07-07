@@ -1,13 +1,10 @@
 /*
-Lists
+Placeholder for notes
 */
-/*
-@import "./";
-*/
-@import "./body.css";
-@import "./css.css";
-@import "./flexandgrid.css";
+
+@import "./theme.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./components.css";
 @import "./links.css";
-@import "./lists.css";
 @import "./misc.css";
-@import "./outlinesborders.css";
