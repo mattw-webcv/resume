@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-AU">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Resume - History - Matt W</title>
+        <link rel="stylesheet" href="css/css.css" />
+    </head>
+
+    <body>
+        <header>
+            <h2>
+                Welcome,
+                <br />
+                This is my history.
+            </h2>
+            <nav class="navbar">
+                <a href="history.html" class="active">History</a>
+                <a href="index.html">Home</a>
+                <a href="pet-projects.html">Pet Projects</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="categories">
+                <!-- Computing Skills -->
+                <article class="category computing">
+                    <h2>Academic and Skills</h2>
+                    <details>
+                        <summary>Incomplete - 2022 – CCNA</summary>
+                        <p>
+                            2022 – CCNA (Cisco Certified Network Associate):
+                            online study CCNA encompasses and requires both
+                            knowledge and understanding of computing: Assembly,
+                            management & maintenance, troubleshooting, and
+                            securing of computers and networks: Desktop, laptop,
+                            server.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Completed - 2017 – Bachelor of Arts</summary>
+                        <p>
+                            Australian Catholic University Major in Philosophy –
+                            Love of wisdom - The systematic organisation and use
+                            of knowledge.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Driving - Car</summary>
+                        <p>
+                            C class vehicle, Open, Manual, - with defensive
+                            driving.
+                        </p>
+                    </details>
+                </article>
+
+                <!-- Theoretical Frameworks -->
+                <article class="category theoretical">
+                    <h2>Employment History</h2>
+                    <details>
+                        <summary>2023 - Suns’ Chinese</summary>
+                        <p>
+                            2 days a week serving customers ◦ Orders (writing,
+                            pricing, & payment) • Preparing and cooking various
+                            dishes • Cleaning - (Floors, dishes, kitchen
+                            [general]) • Misc shopping errands (such as
+                            food/cleaners)
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>2017-2019 - St Vincent’s Volunteer</summary>
+                        <p>
+                            St Vincent’s Volunteer • Sorting – donations,
+                            export/import, retail • Warehouse – cleaning
+                            donations • Liaison & coordination – warehouse +
+                            retail • Cleaning, tidying, rearranging • Retail –
+                            pricing & some cleaning • Shopping for errands and
+                            misc provisions • Sales assistant
+                        </p>
+                    </details>
+                    <details>
+                        <summary>2016 – 2019 - 28mm Games R&D</summary>
+                        <p>
+                            • Researching, designing and testing rules •
+                            Business costs, logistics, production scale •
+                            Understanding target demographics ◦ Statistics ◦
+                            Language ◦ Education by culture & generation
+                        </p>
+                    </details>
+                    <details>
+                        <summary>2013 and earlier</summary>
+                        <p>
+                            Salmat (Telstra) Sales–door trader • Comprehensive
+                            product knowledge • In-the-moment curation and
+                            arrangement • Mentally mapping streets • Supervising
+                            & training - Queensland Accommodation
+                            Sales-telemarketer
+                        </p>
+                    </details>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <nav>
+                <a href="https://github.com/mattw-webcv" target="_blank"
+                    ><h3>Github</h3></a
+                >
+            </nav>
+            <p>
+                Please note, I will periodically revisit and update this site.
+            </p>
+        </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const detailsElements =
+                    document.querySelectorAll(".category details");
+
+                detailsElements.forEach((details) => {
+                    details.addEventListener("toggle", () => {
+                        if (details.open) {
+                            detailsElements.forEach((other) => {
+                                if (other !== details) {
+                                    other.removeAttribute("open");
+                                }
+                            });
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

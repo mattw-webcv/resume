@@ -1,15 +1,15 @@
 main {
     display: block;
-    padding-top: 2em; /* adjust this to the height of your header/navbar */
+    padding-top: 2em;
 }
 
 header {
-    height: 9em;
+    height: 8.5em;
     justify-content: center;
     margin: auto;
     width: 28em;
     padding: 1em;
-    outline: solid #73ad21;
+    outline: solid var(--header-outline);
     text-align: center;
     border-radius: 15px;
     font-size: 1.8em;
@@ -30,17 +30,6 @@ footer div {
     gap: 1rem;
 }
 
-footer div a {
-    color: var(--primary);
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-footer div a:hover {
-    color: var(--accent);
-    text-decoration: underline;
-}
-
 footer div p {
     flex-basis: 100%;
     margin-top: 0.5rem;
@@ -49,7 +38,7 @@ footer div p {
 }
 
 .categories {
-    margin-top: 2em; /* adjust as needed */
+    margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -57,13 +46,6 @@ footer div p {
 }
 
 @media (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-
     header {
         font-size: 1.2em;
     }

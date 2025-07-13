@@ -1,19 +1,53 @@
-/*
-Placeholder for notes
-*/
-@import "./base.css";
-@import "./components.css";
-@import "./theme.css";
 @import "./layout.css";
+@import "./components.css";
 @import "./links.css";
-@import "./misc.css";
-
+@import "./print.css";
 :root {
     --bg: #2e3440;
     --text: #88c0d0;
     --primary: #8fbcbb;
     --secondary: #5e81ac;
     --accent: #b48ead;
-    --category-bg: #2e3440;
-    --category-text: #88c0d0;
+
+    --category-computing: #3b4252;
+    --category-theoretical: #434c5e;
+    --category-practical: #4c566a;
+    --category-transferable: #4c566a;
+
+    --header-outline: #73ad21;
+
+    --font-body: Verdana, sans-serif;
+    --font-heading: Georgia, serif;
+    --font-size: 1.2em;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: var(--font-size);
+    margin: 2em;
+    column-gap: 0.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: var(--font-heading);
+}
+
+li {
+    display: inline-block;
+    background-color: #4c566a;
+    border-radius: 9px;
+    padding: 0.4em;
 }
